@@ -1,15 +1,15 @@
-<div class="row">
-  <div class="col-md-12">
+<div class='row'>
+  <div class='col-md-12'>
     <%= form_for([current_user, @exercise], :html => {class: "form-horizontal", role: "form"}) do |f| %>
-      <% if @exercise.errors.any? %>
-        <div id="error_explanation">
-          <h2><%= pluralize(@exercise.errors.count, "errors") %>
-            prohibited this exercise from being saved: </h2>
-          <ul>
-            <% @exercises.errors.full_messages.each do |msg| %>
-              <li><%= msg %></li>
-            <% end %>
-          </ul>
+    <% if @exercise.errors.any? %>
+      <div id="error_explanation">
+        <h2><%= pluralize(@exercise.errors.count, "error") %>
+        prohibited this exercise from being saved: </h2>
+        <ul>
+          <% @exercise.errors.full_messages.each do |message| %>
+            <li><%= message %></li>
+          <% end %>
+        </ul>
       </div>
     <% end %>
     <div class="form-group">
