@@ -19,7 +19,7 @@
           <td><%= exercise.workout_date %></td>
           <td><%= link_to "Show", [current_user, exercise] %></td>
           <td><%= link_to "Edit", [:edit, current_user, exercise] %></td>
-          <td><%= link_to "Delete", [current_user, exercise], method: :destroy, data: {confirm: "Are you sure?"} %></td>
+          <td><%= link_to "Delete", [current_user, exercise], method: :delete, data: {confirm: "Are you sure?"} %></td>
         </tr>
       <% end %>
     </tbody>
