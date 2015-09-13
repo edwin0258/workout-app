@@ -1,6 +1,8 @@
+<div id="white-container">
 <h1 class="text-center">Editing Exercise for <%= current_user.full_name %></h1>
 
 <%= render 'form' %>
 
-<%= link_to "Show", [current_user, @exercise] %>
-<%= link_to "Back", user_exercises_path(current_user) %>
+<%= link_to "Show", [current_user, @exercise], class: "btn btn-warning btn-sm"  %>
+<%= link_to "Back", user_exercises_path(current_user), class: "btn btn-warning btn-sm" %>
+</div>

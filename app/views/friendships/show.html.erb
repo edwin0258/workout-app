@@ -1,4 +1,4 @@
-<div class="col-md-8">
+<div class="col-md-8" id="white-container">
   <p id="notice"><%= notice %></p>
   <h1><%= @friend.full_name %>'s Exercises</h1>
   <table class="table table-striped">
@@ -23,5 +23,5 @@
   <%= content_tag :div, "", id: "chart", data: {workouts: @exercises} %>
   <br>
   
-  <%= link_to "Back", user_exercises_path(current_user), class: "btn btn-primary link" %>
+  <%= link_to "Back", user_exercises_path(current_user), class: "btn btn-warning btn-sm link" %>
 </div>

@@ -1,5 +1,5 @@
-<h2 class="text-center">Sign up</h2>
-<div class="row">
+<h2 class="text-center well well-sm">Sign up</h2>
+<div class="row" id="white-container">
   <div class="col-md-12">
     <%= form_for(resource, as: resource_name,:html =>{class:"form-horizontal", role: "form"}, url: registration_path(resource_name)) do |f| %>
       <%= devise_error_messages! %>

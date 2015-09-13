@@ -3,6 +3,29 @@
 
 body{
   padding-top:70px;
+  background-color:#fcead6;
+}
+.dashboard-jumbo{
+  background-image: url("http://www.jameshotels.com/polopoly_fs/1.2203.1377620758!/fileImage/httpImage/image.jpg_gen/derivatives/landscape_1615/jny-restbar-jimmy-lounge-06182013-jpg.jpg");
+  background-position:40% 30%;
+  color: white;
+}
+.athlete-container{
+  color:#7f260b;
+}
+#exercises-container, #white-container{
+  background-color:white;
+  margin-bottom:10px;
+  padding-bottom:10px;
+}
+#white-container{
+  padding:10px;
+}
+.friends-container{
+  margin-left:5px;
+}
+.friend-container{
+  padding-bottom:20px;
 }
 .alert-error {
   background-color: #f2dede;
