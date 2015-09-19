@@ -19,8 +19,3 @@
 // require turbolinks
 //= require_tree .
 
-$(document).ready(function(){
-  $(.navbar li).on("mouseenter", function(){
-    $(this).css("color", "#7D1935")
-  })
-});
