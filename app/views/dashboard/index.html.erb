@@ -1,7 +1,9 @@
-<div class="jumbotron dashboard-jumbo">
-  <h1>Workout Lounge!</h1>
-  <p>Share your workouts with your friends and family</p>
-  
+<div class="top-container">
+  <div class="jumbotron dashboard-jumbo well">
+    <h1>Workout Lounge!</h1>
+    <p>Share your workouts with your friends and family</p>
+
+  </div>
 </div>
 <div class="row">
   <div class="col-md-10">
@@ -12,7 +14,7 @@
 <div class="container">
   <div class="row">
     <% @athletes.each do |athlete| %>
-      <div class="col-md-10 well member athlete-container" id="athlete-container">
+      <div class="col-md-8 well member athlete-container" id="athlete-container">
         <b><%= athlete.full_name %></b>
         <% if current_user %>
         <%= link_to "Follow", friendships_path(friend_id: athlete.id),

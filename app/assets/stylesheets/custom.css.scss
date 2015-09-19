@@ -3,7 +3,7 @@
 
 body{
   padding-top:70px;
-  background-color:#fcead6;
+  background-color:#e0c9cf;
 }
 .navbar{
   background-image:url("http://www.designbolts.com/wp-content/uploads/2012/12/White-Gradient-Squares-Seamless-Patterns-For-Website-Backgrounds.jpg") !important;
@@ -17,6 +17,9 @@ body{
   color:#7D1935 !important;
 
 }
+.btn-search{
+  background-color:#e0c9cf;
+}
 
 
 
@@ -24,9 +27,11 @@ body{
   background-image: url("http://www.jameshotels.com/polopoly_fs/1.2203.1377620758!/fileImage/httpImage/image.jpg_gen/derivatives/landscape_1615/jny-restbar-jimmy-lounge-06182013-jpg.jpg");
   background-position:40% 30%;
   color: white;
+  width:100%;
 }
 .athlete-container{
   color:#7f260b;
+  border-radius:0px;
 }
 #exercises-container, #white-container{
   background-color:white;
